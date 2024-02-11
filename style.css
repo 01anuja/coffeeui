@@ -1,0 +1,60 @@
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    height: 20px;
+      
+  }
+    
+  .logo a {   /*earth logo*/
+      
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-weight: bold; /* Make the text bold */
+    padding: 5px; /* Add padding */
+    /* Add green border */
+    letter-spacing: 1px; 
+    color: white
+  }
+    
+  .all-links {
+  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+  }
+    
+  .all-links li {
+      
+    margin-right: 20px;
+  }
+    
+  .all-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease; /* Add transition for a smooth color change on hover */
+  }
+    
+  .all-links a:hover {
+    color: #888; /* Set the faint color on hover */
+  }
+  .background-image {
+    background-image: url(backgroundimg.png);
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
+    position: relative; /* Position relative for absolute positioning of text */
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Set text color to white */
+    font-weight: bold; /* Set text to bold */
+    height: 500px;
+}
